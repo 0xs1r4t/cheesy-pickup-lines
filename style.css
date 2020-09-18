@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #FFC7DE;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #c454ff;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    --gradient: linear-gradient(188deg, #c454ff 20.5%, #2800ff 42.5%, #fa8a7c 63%, #fe7dab 86%);
+    --stroke-width: 2px;
+    --colors-accent: #3652d3;
+    font-family: Helvetica, Sans-serif;
+}
