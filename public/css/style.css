@@ -12,6 +12,13 @@
         url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FKarrik-Regular.ttf?v=1600456811283") format("ttf");
 }
 
+@font-face {
+    font-family: "Compagnon";
+    src: url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.woff2?v=1600464372500") format("woff2"),
+        url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.woff?v=1600464372661") format("woff"),
+        url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.otf?v=1600464381277") format("otf");
+}
+
 :root {
     --primary-background: #FFC7DE;
     --primary-font: #fff;
@@ -20,8 +27,6 @@
     --gradient: linear-gradient(188deg, #FFDB87 20.5%, #FF9CC5 42.5%, #DAAFF8 63%, #667cde 86%);
     --stroke-width: 2px;
     --colors-accent: #3652d3;
-    --gen-background: #FFDB87;
-    --gen-text: #3652d3;
 }
 
 * {
@@ -38,6 +43,7 @@ body {
     background: var(--primary-background);
     color: var(--primary-font);
     font-family: "Karrik", Helvetica, Sans-serif;
+    padding-bottom: 2em;
 }
 
 /* TITLE */
@@ -49,7 +55,7 @@ body {
 
 .title>h1 {
     display: block;
-    font-size: 4em;
+    font-size: 5em;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
     margin-inline-start: 0px;
@@ -58,7 +64,7 @@ body {
     letter-spacing: 2.5px;
     line-height: 0.9;
 
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 2.5px;
 }
 
 .title>h1>.backgroundText {
@@ -89,18 +95,25 @@ body {
 
 /* GENERATOR */
 .generator {
-    background: var(--gen-background);
-    color: var(--gen-text);
-    font-family: "Avara", serif;
-    font-size: larger;
+    background: var(--primary-font);
+    color: var(--colors-accent);
+    font-family: "Compagnon", serif;
     width: 90%;
+    padding: 1em;
+    min-height: 300px;
+    border-radius: 15px;
+    border: 2.5px solid var(--colors-accent);
 }
 
-.generator:hover,
-.generator:focus {
+.generator>p {
+    font-size: 2.5em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--colors-accent);
+}
+
+.generator>p:focus {
     outline: none;
 }
-
 
 /* SCROLLBAR */
 body::-webkit-scrollbar {
