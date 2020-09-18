@@ -43,7 +43,7 @@ body {
     background: var(--primary-background);
     color: var(--primary-font);
     font-family: "Karrik", Helvetica, Sans-serif;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 /* TITLE */
@@ -55,13 +55,13 @@ body {
 
 .title>h1 {
     display: block;
-    font-size: 5em;
+    font-size: 4em;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.15px;
     line-height: 0.9;
 
     -webkit-text-stroke-width: 2.5px;
@@ -115,6 +115,33 @@ body {
     outline: none;
 }
 
+/* MORE STUFF */
+.moreStuff {
+    display: grid;
+    place-content: space-between;
+    font-size: 3em;
+}
+
+.moreStuff > .icons {
+    justify-content: space-between;
+    color: var(--colors-accent);
+    padding-top: 0.5em;
+}
+
+.moreStuff > .icons > a {
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+}
+
+.icons > a:before, a:after, a:visited, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons > a:hover {
+    color: var(--primary-font);
+}
+
 /* SCROLLBAR */
 body::-webkit-scrollbar {
     width: 0.75rem;
@@ -122,12 +149,12 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
     background-color: var(--primary-background);
-    border: 2px solid var(--colors-accent);
+    border: 2.5px solid var(--colors-accent);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--primary-background);
-    border: 2px solid var(--colors-accent);
+    background-color: var(--secondary-background);
+    border: 2.5px solid var(--colors-accent);
 }
 
 /* TEXT SELECTION */
