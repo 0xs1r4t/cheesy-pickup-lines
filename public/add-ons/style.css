@@ -122,23 +122,26 @@ body {
     font-size: 3em;
 }
 
-.moreStuff > .icons {
+.moreStuff>.icons {
     justify-content: space-between;
     color: var(--colors-accent);
     padding-top: 0.5em;
 }
 
-.moreStuff > .icons > a {
+.moreStuff>.icons>a {
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
 }
 
-.icons > a:before, a:after, a:visited, a:focus {
+.icons>a:before,
+a:after,
+a:visited,
+a:focus {
     text-decoration: none;
     color: inherit;
 }
 
-.icons > a:hover {
+.icons>a:hover {
     color: var(--primary-font);
 }
 
@@ -166,4 +169,20 @@ body::-webkit-scrollbar-thumb {
 ::selection {
     color: var(--secondary-font);
     background-color: var(--secondary-background);
+}
+
+/* HEART ANIMATION */
+.heart {
+    position: fixed;
+    top: -1vh;
+    font-size: 1rem;
+    transform: translateY(0);
+    animation: fallingHearts 3s linear forwards;
+    z-index: -1000;
+}
+
+@keyframes fallingHearts {
+    to {
+        transform: translateY(105vh);
+    }
 }
