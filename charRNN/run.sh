@@ -2,6 +2,8 @@
 
 # Instructions - https://github.com/ml5js/training-charRNN
 # These are the hyperparameters you can change to fit your data
+# input.txt contained tons of repetitions of 'pick-up-lines.txt'
+# in an attempt to increase the volume of the dataset.
 python train.py --data_path=./input.txt \
 --rnn_size 64 \
 --num_layers 2 \
