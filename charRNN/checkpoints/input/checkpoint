@@ -1,0 +1,5 @@
+model_checkpoint_path: "input-2095"
+all_model_checkpoint_paths: "input-0"
+all_model_checkpoint_paths: "input-1000"
+all_model_checkpoint_paths: "input-2000"
+all_model_checkpoint_paths: "input-2095"
