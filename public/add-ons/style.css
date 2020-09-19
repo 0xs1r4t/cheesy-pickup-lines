@@ -1,15 +1,9 @@
 @font-face {
-    font-family: "Avara";
-    src: url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FAvara-BoldItalic.woff2?v=1600456247868") format("woff2"),
-        url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FAvara-BoldItalic.woff?v=1600456245076") format("woff"),
-        url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FAvara-BoldItalic.ttf?v=1600456243729") format("ttf");
-}
-
-@font-face {
     font-family: "Karrik";
     src: url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FKarrik-Regular.woff2?v=1600456820304") format("woff2"),
         url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FKarrik-Regular.woff?v=1600456814787") format("woff"),
         url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FKarrik-Regular.ttf?v=1600456811283") format("ttf");
+    font-display: fallback;
 }
 
 @font-face {
@@ -17,6 +11,7 @@
     src: url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.woff2?v=1600464372500") format("woff2"),
         url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.woff?v=1600464372661") format("woff"),
         url("https://cdn.glitch.com/c296b094-1856-4b3a-9a84-5cb32e4eb129%2FCompagnon-Roman.otf?v=1600464381277") format("otf");
+    font-display: fallback;
 }
 
 :root {
@@ -78,8 +73,8 @@ body {
 }
 
 .title>h1>.backgroundText:nth-child(1) {
-    -webkit-transform: translate(calc(var(--stroke-width) * 5 * -1), calc(var(--stroke-width) * 5));
-    transform: translate(calc(var(--stroke-width) * 5 * -1), calc(var(--stroke-width) * 5));
+    -webkit-transform: translate(calc(var(--stroke-width) * 6 * -1), calc(var(--stroke-width) * 6));
+    transform: translate(calc(var(--stroke-width) * 6 * -1), calc(var(--stroke-width) * 6));
 }
 
 .title>h1>.backgroundText:nth-child(2) {
