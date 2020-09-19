@@ -35,15 +35,18 @@ html {
     background: var(--primary-background);
     color: var(--primary-font);
     font-family: "Karrik", Helvetica, Sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     display: grid;
     place-items: center;
     grid-template-rows: auto 1fr auto;
-    height: 95vh;
     width: 100%;
     padding-bottom: 1em;
+    zoom: 90%;
 }
 
 /* TITLE */
