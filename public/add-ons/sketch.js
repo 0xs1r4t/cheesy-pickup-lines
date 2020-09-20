@@ -21,7 +21,7 @@ function setup() {
   noCanvas();
 
   // Create the LSTM Generator passing it the model directory
-  charRNN = ml5.charRNN('./old_models/', modelReady);
+  charRNN = ml5.charRNN('./models/', modelReady);
 
   // Grab the DOM elements
   textInput = select('#textInput');
@@ -42,7 +42,7 @@ function updateSliders() {
 }
 
 function modelReady() {
-  select('#status').html('Model Loaded');
+  select('#status').html('The model has loaded!');
 }
 
 // Generate new text
@@ -77,8 +77,8 @@ function generate() {
       // When it's done
       function gotData(err, result) {
         // Update the status log
-        select('#status').html('Ready!');
-        select('#result').html(txt + result.sample);
+        select('#status').html('The model is ready!');
+        select('#result').html('"' + txt + result.sample + '"');
         runningInference = false;
       }
     }
