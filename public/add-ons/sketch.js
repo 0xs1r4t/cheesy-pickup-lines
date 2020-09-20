@@ -5,8 +5,6 @@
 
 /* ===
 ml5 Example
-LSTM Generator example with p5.js
-This uses a pre-trained model on a corpus of Virginia Woolf
 For more models see: https://github.com/ml5js/ml5-data-and-training/tree/master/models/charRNN
 === */
 

@@ -101,15 +101,6 @@ position: relative;
 .prereqs {
 display: grid;
 grid-gap: 0.5rem;
-grid-template-columns: repeat(12, 1fr);
-}
-
-.a, .b {
-grid-column: 1 / span 6;
-}
-
-.c, .d {
-grid-column: 7 / span 6;
 }
 
 input {
@@ -218,6 +209,10 @@ background: var(--secondary-background);
 #bottom_text:after {
 color: var(--colors-accent);
 background: var(--secondary-background);
+}
+
+#tempSlider {
+  margin-bottom: 20px;
 }
 
 /* button */
