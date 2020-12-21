@@ -1,4 +1,8 @@
-# Cheesy Pick-Up Lines
+# Cheesy Pick-Up Line Bot
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 A bot that uses cheesy pick-up lines to flirt with you <3
 
@@ -22,3 +26,4 @@ A bot that uses cheesy pick-up lines to flirt with you <3
     - Will be a smooth twitter bot soon!
 
 Tip - Switch to the main branch to main to view the original form of the bot.
+
