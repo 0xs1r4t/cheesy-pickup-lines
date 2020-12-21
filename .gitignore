@@ -64,3 +64,10 @@ node_modules/
 
 # dotenv environment variables file
 .env
+version_1.9/.env
+version_1.9/flirt_env
+version_1.9/flirt_env/
+version_1.9/venv/
+version_1.9/venv
+version_1.9/env/
+version_1.9/env

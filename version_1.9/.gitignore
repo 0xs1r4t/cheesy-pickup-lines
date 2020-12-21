@@ -1,0 +1,9 @@
+__pycache__
+
+flirt_env/
+flirt_env
+venv/
+venv
+env/
+env
+.env
