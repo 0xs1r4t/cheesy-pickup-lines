@@ -20,3 +20,5 @@ A bot that uses cheesy pick-up lines to flirt with you <3
 
     - Still under development
     - Will be a smooth twitter bot soon!
+
+Tip - Switch to the main branch to main to view the original form of the bot.
